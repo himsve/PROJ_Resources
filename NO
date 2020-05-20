@@ -1,0 +1,89 @@
+#########################################################################################################
+#                                                                                                       #
+#   Transformations	for Norway                                                                          #
+#   Norwegian Mapping Authority, NMA (Statens Kartverk)                                                 #
+#												    	                                                #
+#   Transformations for Norway                                                                          #
+#   This init-file describes transformations between EUREF89,                                           #
+#   NTM projection, NGO1948 projection and height transformations (NN1954 and NN2000)                   #
+#                                                                                                       #
+#   This version is edited for external testers                                                         #
+#                                                                                                       #	
+#   Sources:                                                                                            #
+#                                                                                                       #
+#########################################################################################################
+
+# NTM projection sone 5 to 30
+<NTM05> +proj=tmerc +lat_0=58 +lon_0=5.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM06> +proj=tmerc +lat_0=58 +lon_0=6.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM07> +proj=tmerc +lat_0=58 +lon_0=7.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM08> +proj=tmerc +lat_0=58 +lon_0=8.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM09> +proj=tmerc +lat_0=58 +lon_0=9.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM10> +proj=tmerc +lat_0=58 +lon_0=10.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM11> +proj=tmerc +lat_0=58 +lon_0=11.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM12> +proj=tmerc +lat_0=58 +lon_0=12.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM13> +proj=tmerc +lat_0=58 +lon_0=13.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM14> +proj=tmerc +lat_0=58 +lon_0=14.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM15> +proj=tmerc +lat_0=58 +lon_0=15.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM16> +proj=tmerc +lat_0=58 +lon_0=16.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM17> +proj=tmerc +lat_0=58 +lon_0=17.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM18> +proj=tmerc +lat_0=58 +lon_0=18.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM19> +proj=tmerc +lat_0=58 +lon_0=19.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM20> +proj=tmerc +lat_0=58 +lon_0=20.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM21> +proj=tmerc +lat_0=58 +lon_0=21.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM22> +proj=tmerc +lat_0=58 +lon_0=22.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM23> +proj=tmerc +lat_0=58 +lon_0=23.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM24> +proj=tmerc +lat_0=58 +lon_0=24.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM25> +proj=tmerc +lat_0=58 +lon_0=25.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM26> +proj=tmerc +lat_0=58 +lon_0=26.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM27> +proj=tmerc +lat_0=58 +lon_0=27.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM28> +proj=tmerc +lat_0=58 +lon_0=28.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM29> +proj=tmerc +lat_0=58 +lon_0=29.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+<NTM30> +proj=tmerc +lat_0=58 +lon_0=30.5 +k=1 +x_0=100000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs
+
+#########################################################################################################
+#                                                                                                       #
+#  Transformation parameters are achieved from the document: ngo_parametre.pdf                          #
+#                                                                                                       #
+#########################################################################################################
+
+<NGO> +proj=lschelmert +pp_trans=EUREF89_NGO48_20081014.cpt +polygons=Flater.geojson +ellps=GRS80
+
+<NGO01> +proj=pipeline +step +init=NO:NGO +step +proj=tmerc +lat_0=58.0 +lon_0=06.05625000000000000 +a=6377492.0176 +b=6356173.5087 +units=m
+<NGO02> +proj=pipeline +step +init=NO:NGO +step +proj=tmerc +lat_0=58.0 +lon_0=08.38958333333333333 +a=6377492.0176 +b=6356173.5087 +units=m
+<NGO03> +proj=pipeline +step +init=NO:NGO +step +proj=tmerc +lat_0=58.0 +lon_0=10.72291666666666667 +a=6377492.0176 +b=6356173.5087 +units=m
+<NGO04> +proj=pipeline +step +init=NO:NGO +step +proj=tmerc +lat_0=58.0 +lon_0=13.22291666666666667 +a=6377492.0176 +b=6356173.5087 +units=m
+<NGO05> +proj=pipeline +step +init=NO:NGO +step +proj=tmerc +lat_0=58.0 +lon_0=16.88958333333333333 +a=6377492.0176 +b=6356173.5087 +units=m
+<NGO06> +proj=pipeline +step +init=NO:NGO +step +proj=tmerc +lat_0=58.0 +lon_0=20.88958333333333333 +a=6377492.0176 +b=6356173.5087 +units=m
+<NGO07> +proj=pipeline +step +init=NO:NGO +step +proj=tmerc +lat_0=58.0 +lon_0=24.88958333333333333 +a=6377492.0176 +b=6356173.5087 +units=m
+<NGO08> +proj=pipeline +step +init=NO:NGO +step +proj=tmerc +lat_0=58.0 +lon_0=29.05625000000000000 +a=6377492.0176 +b=6356173.5087 +units=m
+
+#########################################################################################################
+#				Height Transformation for NN1954 and NN2000                                             #
+# Following files are in use:                                                                           #
+#                                                                                                       #
+# href2008a.tif 		- used for NN1954                                                               #
+# HREF2018B_NN2000_EUREF89.tif	- used for NN2000                                                       #
+# NNTrans2018B.gtx		- between NN1954 and NN2000                                                     #
+#                                                                                                       #
+#########################################################################################################
+
+#Ellipsoidal height to NN1954
+<NN1954> +proj=pipeline 
+	 +step +proj=vgridshift +grids=href2008a.tif
+
+#Ellipsoidal height to NN2000
+<NN2000> +proj=pipeline 
+	 +step +proj=vgridshift +grids=HREF2018B_NN2000_EUREF89.tif
+
+#Between NN1954 and NN2000
+<NN1954_NN2000> +proj=pipeline 
+	 	+step +proj=vgridshift +grids=NNTrans2018B.tif +inv
+	 	
+#Between NN2000 and NN1954
+<NN2000_NN1954> +proj=pipeline 
+	 	+step +proj=vgridshift +grids=NNTrans2018B.tif
+
+#########################################################################################################
+# Private transformations                                                                               #
+#########################################################################################################
