@@ -47,7 +47,7 @@
 #                                                                                                       #
 #########################################################################################################
 
-<NGO> +proj=lschelmert +pp_trans=EUREF89_NGO48_20081014.cpt +polygons=Flater.geojson +ellps=GRS80
+<NGO> +proj=lschelmert +pp_trans=EUREF89_NGO48_20081014.cpt +polygons=NGO_areas.geojson +ellps=GRS80
 
 <NGO01> +proj=pipeline +step +init=NO:NGO +step +proj=tmerc +lat_0=58.0 +lon_0=06.05625000000000000 +a=6377492.0176 +b=6356173.5087 +units=m
 <NGO02> +proj=pipeline +step +init=NO:NGO +step +proj=tmerc +lat_0=58.0 +lon_0=08.38958333333333333 +a=6377492.0176 +b=6356173.5087 +units=m
